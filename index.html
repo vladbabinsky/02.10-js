@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Interaction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Change Background Color</h1>
+        <form class="color-form">
+            <h2>Choose a color:</h2>
+            <label>
+                <input type="radio" name="color" value="red" checked />
+                Red
+            </label>
+            <label>
+                <input type="radio" name="color" value="white" />
+                White
+            </label>
+            <label>
+                <input type="radio" name="color" value="green" />
+                Green
+            </label>
+        </form>
+
+        <h2>User Information Form</h2>
+        <form id="userForm" class="info-form">
+            <form id="userForm" class="info-form">
+                <input type="text" id="firstName" class="input-field" placeholder="First Name" required />
+                <input type="text" id="lastName" class="input-field" placeholder="Last Name" required />
+                <input type="email" id="email" class="input-field" placeholder="Email Address" required />
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <button id="toggleButton" class="toggle-button">Show/Hide Text</button>
+        <div id="textBlock" class="hidden text-block">
+            <p>This text can be hidden or shown.</p>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+
+</body>
+</html>
